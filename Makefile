@@ -8,8 +8,11 @@ fetch:
 process: 
 	python src/process_data.py
 
-map: data_dictionary.json
+vocab_map.json:
 	python src/map_data.py
 
 loop:
 	for i in {1..5}; do echo "Iteration $$i"; done
+
+replace:
+	python src/replace_in_dictionary.py

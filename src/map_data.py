@@ -30,5 +30,5 @@ def make_map(input_file, table_file, output_file):
 if __name__ == "__main__":
     DICTIONARY_FILE = "data_dictionary.json"
     TABLE_FILE= "assessments.tsv"
-    OUTPUT_FILE = "map.json"
+    OUTPUT_FILE = "vocab_map.json"
     make_map(DICTIONARY_FILE, TABLE_FILE, OUTPUT_FILE)
